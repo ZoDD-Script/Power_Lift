@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+  .powerlift__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+  }
+
+  .powerlift__about-section1 {
+    position: relative;
+    top: -20px;
+    width: 95vw;
+  }
+
+  .powerlift__hero-option {
+    padding: 2rem;
+    text-align: start;
+  }
+
+  .powerlift__hero-option__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .powerlift__hero-option__content-image {
+    padding-right: 1rem;
+  }
+
+  .powerlift__hero-option__header,
+  .powerlift__hero-option__small-header,
+  .powerlift__hero-option__content {
+    padding-bottom: 1rem;
+  }
+
+  .powerlift__about-section2 {
+    padding-top: 2rem;
+  }
+
+  /* .powerlift__about-images__container {
+    display: flex;
+  } */
+
+  .powerlift__about-images1,
+  .powerlift__about-images2,
+  .powerlift__about-images3 {
+    width: 45vw;
+  }
+
+  .powerlift__about-images__container {
+    width: 100vw;
+  }
+
+  .powerlift__about-images1 {
+    position: relative;
+    left: -10px;
+  }
+
+  .powerlift__about-images2 {
+    position: relative;
+    top: 55px;
+    right: -10px;
+  }
+
+  .powerlift__about-images3 {
+    position: relative;
+    top: 70px;
+  }
+
+  .powerlift__about-content__container {
+    padding-top: 7rem;
+    text-align: start;
+  }
+
+  .powerlift__about-content__intro {
+    text-decoration: underline solid #03415A;
+    text-underline-offset: 13px;
+    font-weight: 100;
+    font-size: large;
+    padding-bottom: 2.5rem;
+  }
+
+  .powerlift__about-content__container h2 {
+    font-size: 25px;
+    padding-bottom: 2.5rem;
+  }
+
+  .powerlift__about-content__container p {
+    font-weight: 100;
+    color: rgb(170, 170, 170);
+  }
+
+  .powerlift_about-info p {
+    padding-top: 2.5rem;
+  }
+}

@@ -1,0 +1,27 @@
+
+
+@media (max-width: 700px) {
+  .powerlift__offer-container {
+    text-align: start;
+    padding-top: 4rem;
+  }
+
+  .powerlift__offer-container img, p, h3 {
+    padding-top: 1.5rem;
+  }
+
+  .powerlift__offer-container h3 {
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  .powerlift__offer-container p {
+    font-weight: 100;
+    color: rgb(170, 170, 170);
+  }
+
+  .powerlift__offer-container__section2 img {
+    width: 100vw;
+    padding-top: 7rem;
+  }
+}

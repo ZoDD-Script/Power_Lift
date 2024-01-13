@@ -1,0 +1,154 @@
+.powerlift__navbar {
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #fff;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.6s;
+  z-index: 100000;
+}
+
+.powerlift__navbar-logoLink {
+  background-color: transparent;
+}
+
+.powerlift__navbar-logo {
+  width: 200px;
+  position: relative;
+  transition: 0.6s;
+  background-color: transparent;
+}
+
+.powerlift__navbar-navlinks {
+  flex: 1;
+  text-align: right;
+  background-color: #fff;
+}
+
+.powerlift__navbar-navlinks__mobile {
+  display: none;
+}
+
+.powerlift__navbar-navlinks ul {
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.powerlift__navbar-navlinks ul li {
+  background-color: #fff;
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.powerlift__navbar-navlinks ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  margin: 0 15px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  transition: 0.6s;
+  background-color: #fff;
+}
+
+@media (max-width: 700px) {
+  .powerlift__navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    width: 100vw;
+  }
+  
+  .powerlift__navbar-navlinks {
+    display: none;
+  }
+
+  .powerlift__navbar-navlinks__mobile{
+    display: flex;
+  }
+
+  .powerlift__navbar-logo {
+    width: 150px;
+    position: relative;
+    transition: 0.6s;
+    background-color: transparent;
+  }
+
+  .powerlift__navbar-navlinks__mobile {
+    background-color: transparent;
+    color: transparent;
+  }
+  
+  .powerlift__navbar-navlinks__mobile-toggle {
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+    color: #fff;
+  }
+
+  .toggle__flex {
+    display: flex;
+    padding: 1.5rem;
+    position: absolute;
+    top: 5rem;
+    right: 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    min-width: 10px;
+    border-radius: 0.75rem;
+    background: linear-gradient(to bottom, #000000, #1a202c);
+  }
+
+  .toggle__hidden {
+    display: none;
+  }
+
+  .powerlift__navbar-navlinks__mobile-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    flex: 1;
+    background-color: transparent;
+  }
+
+  .powerlift__navbar-navlinks__mobile-links a {
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .mr-0 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 0px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .mb-4 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+  }
+}
