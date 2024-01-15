@@ -13,6 +13,10 @@ import icon1 from './facebook.svg'
 import icon2 from './instagram.svg'
 import icon3 from './linkedin.svg'
 import icon4 from './google.svg'
+import facebook from "./facebook.svg";
+import instagram from "./instagram.svg";
+import linkedin from "./linkedin.svg";
+import twitter from "./twitter.svg";
 
 export {
   logo,
@@ -30,4 +34,8 @@ export {
   icon2,
   icon3,
   icon4,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
 }

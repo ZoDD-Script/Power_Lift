@@ -64,7 +64,7 @@
   background-color: #fff;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .powerlift__navbar {
     background-color: #fff;
     display: flex;

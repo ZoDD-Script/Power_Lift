@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* padding: 2rem; */
 }
 
 .powerlift__about-section1 {
@@ -58,6 +59,74 @@
   text-align: start;
 }
 
+.powerlift__about-section2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  text-align: start;
+  padding: 5rem;
+  padding-top: 1rem;
+}
+
+.powerlift__about-images__container,
+.powerlift__about-content__container {
+  width: 40%;
+}
+
+.powerlift__about-content__container p {
+  color: rgb(167, 167, 167);
+}
+
+.powerlift__about-images2 {
+  position: absolute;
+  top: 165%;
+  left: 31%;
+}
+
+.powerlift__about-images3 {
+  position: relative;
+  top: 3%;
+  left: 15%;
+}
+
+.powerlift__about-content__intro,
+.powerlift__about-content__heading,
+.powerlift__about-content__first-paragraph,
+.powerlift__about-content__second-paragraph {
+  color: #fff;
+}
+
+.powerlift__about-content__intro {
+  text-decoration: underline;
+  padding-bottom: 2.5rem;
+}
+
+.powerlift__about-content__heading {
+  padding-bottom: 2.5rem;
+}
+
+.powerlift__about-content__first-paragraph,
+.powerlift__about-content__second-paragraph {
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.powerlift_about-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-top: 3rem;
+}
+
+.powerlift_about-info p {
+  color: grey;
+  font-size: small;
+}
+
+.powerlift_about-info h3 {
+  color: #fff;
+  font-weight: 500;
+}
 
 @media (max-width: 768px) {
   .powerlift__about {
@@ -97,7 +166,10 @@
   }
 
   .powerlift__about-section2 {
+    display: block;
     padding-top: 2rem;
+    padding: 0;
+    width: 100vw;
   }
 
   /* .powerlift__about-images__container {
@@ -116,13 +188,13 @@
 
   .powerlift__about-images1 {
     position: relative;
-    left: -10px;
+    left: 9px;
   }
 
   .powerlift__about-images2 {
     position: relative;
     top: 55px;
-    right: -10px;
+    left: 20px;
   }
 
   .powerlift__about-images3 {
@@ -131,6 +203,7 @@
   }
 
   .powerlift__about-content__container {
+    width: 100vw;
     padding-top: 7rem;
     text-align: start;
   }
@@ -145,15 +218,26 @@
 
   .powerlift__about-content__container h2 {
     font-size: 25px;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
   }
 
   .powerlift__about-content__container p {
     font-weight: 100;
     color: rgb(170, 170, 170);
+    padding-top: 0;
+  }
+
+  .powerlift_about-info {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .powerlift_about-info p {
     padding-top: 2.5rem;
+  }
+
+  .powerlift__about-infocard h3 {
+    padding-top: 0.5rem;
   }
 }

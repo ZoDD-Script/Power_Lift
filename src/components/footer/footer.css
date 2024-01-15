@@ -1,0 +1,292 @@
+.powerlift__footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  padding-bottom: 6px;
+  flex-direction: column;
+  background-color: black;
+}
+
+.powerlift__footer-links__container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  width: 100%;
+  background-color: transparent;
+}
+
+.powerlift__footer-links_section1 {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  justify-content: start;
+  background-color: transparent;
+}
+
+.powerlift__footer-links__image {
+  width: 23vw;
+  height: 100px;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.powerlift__footer-links__paragraph {
+  font-weight: normal;
+  color: #a0a0a0;
+  font-size: 18px;
+  line-height: 30.8px;
+  margin-top: 1rem;
+  max-width: 310px;
+  background-color: transparent;
+}
+
+.powerlift__footer-links__section2 {
+  display: flex;
+  flex: 1.5;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+  background-color: transparent;
+}
+
+.powerlift__footer-links__tab {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-width: 150px;
+  background-color: transparent;
+}
+
+.powerlift__footer-links__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: transparent;
+}
+
+.powerlift__footer-links {
+  list-style-type: none;
+  margin-top: 1rem;
+  background-color: transparent;
+}
+
+.powerlift__footer-links__list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a0a0a0;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.powerlift__footer-links__list:hover {
+  color: rgb(0 246 225 / var(--tw-text-opacity));
+}
+
+.powerlift__footer-rights {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  border-top-width: 1px;
+  --tw-border-opacity: 1;
+  border-top-color: rgb(63 62 69 / var(--tw-border-opacity));
+  background-color: transparent;
+}
+
+.powerlift__footer-rights__paragraph {
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  background-color: transparent;
+}
+
+.powerlift__footer-rights__socials {
+  display: flex;
+  margin-top: 1.5rem;
+  background-color: transparent;
+}
+
+.powerlift__footer-rights__socials-image {
+  width: 21px;
+  height: 21px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  background-color: transparent;
+}
+
+
+
+@media (max-width: 768px) {
+  .powerlift__footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .powerlift__footer-links__tab {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .powerlift__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    margin-top: 2rem;
+    padding-bottom: 6px;
+    flex-direction: column;
+    background-color: black;
+  }
+
+  .powerlift__footer-links__container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 100%;
+    background-color: transparent;
+  }
+
+  .powerlift__footer-links_section1 {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    justify-content: start;
+    background-color: transparent;
+  }
+
+  .powerlift__footer-links__image {
+    width: 100vw;
+    height: 100px;
+    object-fit: contain;
+    background-color: transparent;
+  }
+
+  .powerlift__footer-links__paragraph {
+    font-weight: normal;
+    color: #a0a0a0;
+    font-size: 15px;
+    line-height: 30.8px;
+    margin-top: 0;
+    padding: 0;
+    max-width: 310px;
+    background-color: transparent;
+  }
+
+  .powerlift__footer-links__section2 {
+    display: flex;
+    flex: 1.5;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+    background-color: transparent;
+  }
+
+  .powerlift__footer-links__tab {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    min-width: 150px;
+    background-color: transparent;
+  }
+
+  .powerlift__footer-links__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: transparent;
+  }
+
+  .powerlift__footer-links {
+    list-style-type: none;
+    margin-top: 1rem;
+    background-color: transparent;
+  }
+
+  .powerlift__footer-links__list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a0a0a0;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    background-color: transparent;
+  }
+
+  .powerlift__footer-links__list:hover {
+    color: rgb(0 246 225 / var(--tw-text-opacity));
+  }
+
+  .powerlift__footer-rights {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    border-top-width: 1px;
+    --tw-border-opacity: 1;
+    border-top-color: rgb(63 62 69 / var(--tw-border-opacity));
+    background-color: transparent;
+  }
+
+  .powerlift__footer-rights__paragraph {
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+    line-height: 27px;
+    color: #d4d4d4;
+    --tw-text-opacity: 1;
+    /* color: rgb(255 255 255 / var(--tw-text-opacity)); */
+    background-color: transparent;
+  }
+
+  .powerlift__footer-rights__socials {
+    display: flex;
+    margin-top: 1.5rem;
+    background-color: transparent;
+  }
+
+  .powerlift__footer-rights__socials-image {
+    width: 21px;
+    height: 21px;
+    object-fit: contain;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 1060px) {
+  .powerlift__footer-links__container {
+    flex-direction: row;
+  }
+
+  .powerlift__footer-links__section2 {
+    margin-top: 0px;
+  }
+
+  .powerlift__footer-rights {
+    flex-direction: row;
+  }
+
+  .powerlift__footer-rights__socials {
+    margin-top: 0px;
+  }
+}

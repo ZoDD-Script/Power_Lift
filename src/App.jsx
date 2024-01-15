@@ -1,5 +1,5 @@
 import './App.css'
-import { NavBar, Hero, About, Offer } from './components'
+import { NavBar, Hero, About, Offer, Footer } from './components'
 
 const App = () => (
   <header>
@@ -9,6 +9,7 @@ const App = () => (
     </section>
     <About />
     <Offer />
+    <Footer />
   </header>
 )
 
