@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
-import { close, logo, menu } from '../../assets'
-import { navLinks } from '../../constant'
+import { close, logo, menu, user, whatsappIcon } from '../../assets'
+import { navLinks, whatsapp } from '../../constant'
 import { Link } from 'react-scroll'
 import './navbar.css'
 
 const NavBar = () => {
   const [toggle, settoggle] = useState(false)
+  const [whatsappDropdown, setWhatsappDropdown] = useState(false);
 
   return (
     <nav className='powerlift__navbar'>
@@ -48,6 +49,37 @@ const NavBar = () => {
           </ul>
 
         </div>
+      </div>
+
+      <div className='whatsapp__chat'>
+        <img
+          src={whatsappIcon} // Replace with your WhatsApp icon source
+          alt="whatsapp"
+          className='whatsapp__icon'
+          onClick={() => setWhatsappDropdown((prev) => !prev)}
+        />
+
+        {whatsappDropdown && (
+          <div className='whatsapp__dropdown-container'>
+            <div className='whatsapp__dropdown-header'>
+              <img src={close} alt="close" onClick={() => setWhatsappDropdown((prev) => !prev)} className='whatsapp__dropdown-close' />
+              <h2 className='whatsapp__dropdown-heading'>Support</h2>
+            </div>
+            {whatsapp.map((wa) => (
+              <div key={wa.id} className='whatsapp__dropdown-body'>
+                <a onClick={() => setWhatsappDropdown((prev) => !prev)} href={`https://wa.me/${wa.number}?text=Hi...`} target='_blank' className='whatsapp__dropdown-body__customercare-container'>
+                  <img src={user} alt="" className='whatsapp__dropdown-body__customercare-container__image' />
+                  <div className='text__container'>
+                    <p className='whatsapp__dropdown-body__customercare-container__title'>{wa.title}</p>
+                    <p className='whatsapp__dropdown-body__customercare-container__name'>
+                      {wa.name}
+                    </p>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </nav>
   )

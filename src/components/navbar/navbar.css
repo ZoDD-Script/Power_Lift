@@ -64,6 +64,113 @@
   background-color: #fff;
 }
 
+.whatsapp__chat {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 10;
+}
+
+.whatsapp__icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.whatsapp__dropdown-container {
+  color: #fff;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  position: absolute;
+  bottom: 3.5rem;
+  right: 0px;
+  width: 300px;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.whatsapp__dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: linear-gradient(to right, #3498db, #2980b9);
+}
+
+.whatsapp__dropdown-close {
+  margin-right: 1rem;
+  width: 20px;
+}
+
+.whatsapp__dropdown-heading {
+  padding: 0.5rem;
+  display: flex;
+  flex: 1;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  background-color: transparent;
+}
+
+.whatsapp__dropdown-body {
+  display: flex;
+  justify-content: start;
+}
+
+.whatsapp__dropdown-body__customercare-container {
+  display: flex;
+  flex: 1;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem;
+  text-decoration: none;
+  border-bottom-width: 2px;
+  background-color: #fff;
+  color: #000000;
+  border-bottom: .7px solid rgb(214, 214, 214);
+}
+
+.text__container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+
+.whatsapp__dropdown-body__customercare-container__image {
+  width: 50px;
+  margin-right: 1rem;
+  padding: 0;
+}
+
+.whatsapp__dropdown-body__customercare-container__title {
+  color: #000000;
+  font-size: 13px;
+  padding-bottom: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.whatsapp__dropdown-body__customercare-container__name {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+}
+
 @media (max-width: 768px) {
   .powerlift__navbar {
     background-color: #fff;
@@ -150,5 +257,9 @@
     margin-bottom: 1rem;
     cursor: pointer;
     background-color: transparent;
+  }
+
+  .whatsapp__dropdown-container {
+    width: 250px;
   }
 }

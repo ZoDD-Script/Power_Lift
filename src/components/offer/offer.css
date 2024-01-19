@@ -1,7 +1,8 @@
 .powerlift__offer-container {
   display: flex;
   justify-content: space-between;
-  align-items: top;
+  align-items: center;
+  width: 100vw;
 }
 
 .powerlift__offer-container__section1-container {
@@ -29,10 +30,13 @@
   padding-left: 1rem;
 }
 
-
 .powerlift__offer-container__section2 {
   flex: 1;
   width: 30%;
+}
+
+.powerlift__offer-container__section2-image {
+  width: 30vw;
 }
 
 
@@ -41,6 +45,9 @@
     display: block;
     text-align: start;
     padding-top: 4rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100vw;
   }
 
   .powerlift__offer-container {

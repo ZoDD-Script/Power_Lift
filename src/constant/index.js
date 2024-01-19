@@ -217,3 +217,36 @@ export const socialMedia = [
 //     logo: dropbox,
 //   },
 // ];
+
+export const whatsapp = [
+  {
+    id: "wa-1",
+    name: "Doreen",
+    number: "+2349037944292",
+    title: "Customer Service"
+  },
+  {
+    id: "wa-2",
+    name: "Seun",
+    number: "+2348140255339",
+    title: "Project Head"
+  },
+  {
+    id: "wa-3",
+    name: "Niyi",
+    number: "+2349035434254",
+    title: "Project Sales Consultant"
+  },
+  {
+    id: "wa-4",
+    name: "Feyi",
+    number: "+2348167857169",
+    title: "Sales Representative"
+  },
+  {
+    id: "wa-5",
+    name: "Mariam",
+    number: "+2348077723616",
+    title: "Sales"
+  },
+];

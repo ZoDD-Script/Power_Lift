@@ -22,7 +22,7 @@ const Offer = () => (
       ))}
     </div>
     <div className='powerlift__offer-container__section2'>
-      <img src={offer} alt="" />
+      <img src={offer} alt="" className='powerlift__offer-container__section2-image' />
     </div>
   </div>
 )
