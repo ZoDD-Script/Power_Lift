@@ -209,6 +209,8 @@
     width: 100vw;
     padding-top: 7rem;
     text-align: start;
+    padding-left: .3rem;
+    padding-right: .3rem;
   }
 
   .powerlift__about-content__intro {

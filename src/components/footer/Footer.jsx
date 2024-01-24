@@ -1,13 +1,13 @@
 import React from 'react'
 import './footer.css'
-import { logo } from '../../assets'
+import { whitelogo } from '../../assets'
 import { footerLinks, socialMedia } from '../../constant'
 
 const Footer = () => (
   <section className='powerlift__footer'>
     <div className='powerlift__footer-links__container'>
       <div className='powerlift__footer-links_section1'>
-        <img src={logo} alt="hoobank" className='powerlift__footer-links__image' />
+        <img src={whitelogo} alt="hoobank" className='powerlift__footer-links__image' />
         <p className='powerlift__footer-links__paragraph'>We don’t just offer renewable energy solutions; <br />We provide a commitment to quality, sustainability, and partnership.</p>
       </div>
 

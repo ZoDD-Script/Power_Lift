@@ -1,4 +1,4 @@
-import { facebook, icon1, icon2, icon3, icon4, instagram, linkedin, send, shield, star, twitter } from "../assets";
+import { active, activekids, body, facebook, icon1, icon2, icon3, icon4, instagram, linkedin, send, shield, star, twitter } from "../assets";
 
 export const navLinks = [
   {
@@ -248,5 +248,26 @@ export const whatsapp = [
     name: "Mariam",
     number: "+2348077723616",
     title: "Sales"
+  },
+];
+
+export const classes = [
+  {
+    id: "class-1",
+    img: active,
+    title: "Active Adults",
+    text: "STRENGTH, SPEED, STAMINA"
+  },
+  {
+    id: "class-2",
+    img: activekids,
+    title: "Acive Kids",
+    text: "FUN AND EDUATION"
+  },
+  {
+    id: "class-3",
+    img: body,
+    title: "Body Attack",
+    text: "THE POWER PUSHER"
   },
 ];

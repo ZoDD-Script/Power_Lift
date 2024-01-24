@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+  .powerlift__classes {
+    padding-top: 3rem;
+  }
+  
+  .powerlift__classes-header {
+    text-decoration: underline solid #03415A;
+    text-underline-offset: 19px;
+    font-weight: 500;
+    font-size: x-large;
+    /* padding-bottom: 3rem; */
+    color: #fff;
+  } 
+
+  .powerlift__classes-paragraph {
+    color: rgb(213, 213, 213);
+    font-size: 100%;
+    padding: 55px 0px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .powerlift__classes-image1 {
+    width: 100vw;
+  }
+
+  /* App.css */
+
+  .slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+  }
+
+  .arrows {
+    display: flexx;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrows div {
+    padding: 1rem;
+    border: 1px solid grey;
+  }
+
+  .arrowf,
+  .arrowb {
+    width: 30px;
+    /* color: #fff; */
+  }
+
+  .active {
+    background-color: #fff;
+    color: black;
+  }
+
+  .descripton {
+    text-align: start;
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  .descripton h2 {
+    color: #fff;
+  }
+  
+  .descripton p {
+    line-height: 30px;
+    padding: 0px;
+    color: rgb(183, 183, 183);
+    font-size: small;
+  }
+}
