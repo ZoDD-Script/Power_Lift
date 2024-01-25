@@ -1,3 +1,59 @@
+.powerlift__classes {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.powerlift__classes-header {
+  text-decoration: underline solid #03415A;
+  text-underline-offset: 19px;
+  font-weight: 500;
+  font-size: x-large;
+  color: #fff;
+}
+
+.powerlift__classes-paragraph {
+  color: rgb(213, 213, 213);
+  font-size: 100%;
+  padding: 45px 0px;
+  line-height: 30px;
+  text-align: center;
+  width: 50%;
+}
+
+.powerlift__classes-images {
+  display: none;
+}
+
+.powerlift__classes-images_laptop {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 90%;
+}
+
+.class-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  flex-direction: column;
+}
+
+.powerlift__classes-image {
+  width: 90%;
+}
+
+.description-laptop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+
 @media (max-width: 768px) {
   .powerlift__classes {
     padding-top: 3rem;
@@ -8,20 +64,25 @@
     text-underline-offset: 19px;
     font-weight: 500;
     font-size: x-large;
-    /* padding-bottom: 3rem; */
+    padding-bottom: 3rem;
     color: #fff;
   } 
 
   .powerlift__classes-paragraph {
     color: rgb(213, 213, 213);
     font-size: 100%;
-    padding: 55px 0px;
+    padding: 20px 0px;
     line-height: 30px;
     text-align: center;
+    width: 100%;
   }
 
   .powerlift__classes-image1 {
     width: 100vw;
+  }
+
+  .powerlift__classes-images_laptop {
+    display: none;
   }
 
   /* App.css */

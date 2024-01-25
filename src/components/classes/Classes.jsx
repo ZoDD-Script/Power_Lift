@@ -42,14 +42,28 @@ const Classes = () => {
       <p className='powerlift__classes-paragraph'>
         Whether you want to lose weight, tone up, gain muscle, or improve strength, we provide a wide range of classes to help you achieve your goals in a friendly and airy environment.
       </p>
+
       <div className='powerlift__classes-images slider-container'>
         <img src={classes[currentImage].img} alt="" className='powerlift__classes-image1' />
         <div className='descripton'>
           <h2>{classes[currentImage].title}</h2>
           <p>{classes[currentImage].text}</p>
         </div>
-        
       </div>
+
+      <div className='powerlift__classes-images_laptop slider-container-laptop'>
+        {classes.map((classItem, index) => (
+          <div key={classItem.id} className='class-item'>
+            <img src={classItem.img} alt="" className='powerlift__classes-image' />
+            <div className='description-laptop'>
+              <h2>{classItem.title}</h2>
+              <p>{classItem.text}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+
       <div className='arrows'>
         <div className={`arrow ${activeArrow === 'backward' ? 'active' : ''}`}>
           <img src={arrowb} alt="" className='arrowb' onClick={handlePrev} />

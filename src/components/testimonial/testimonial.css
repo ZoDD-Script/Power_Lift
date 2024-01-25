@@ -1,3 +1,94 @@
+.powerlift__testimonials {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 7rem;
+  /* align-items: center; */
+}
+
+.powerlift__testimonials-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  border: 1px solid grey;
+}
+
+.powerlift__testimonials-container__userimg {
+  border-radius: 50%;
+  width: 120px;
+  position: relative;
+  top: -60px;
+}
+
+.powerlift__testimonials-container__quoteimg {
+  width: 50px;
+}
+
+.powerlift__testimonials-container__firstparagraph {
+  line-height: 27px;
+  font-style: italic;
+  color: #fff;
+  width: 80%;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.powerlift__testimonials-container__secondparagraph {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.active {
+  background-color: #fff;
+  color: black;
+}
+
+.arrows {
+  display: flexx;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrows div {
+  padding: 1rem;
+  border: 1px solid grey;
+}
+
+.arrowf,
+.arrowb {
+  width: 30px;
+  /* color: #fff; */
+}
+
+.active {
+  background-color: #fff;
+  color: black;
+}
+
+.descripton {
+  text-align: start;
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.descripton h2 {
+  color: #fff;
+}
+
+.descripton p {
+  line-height: 30px;
+  padding: 0px;
+  color: rgb(183, 183, 183);
+  font-size: small;
+}
+
 @media (max-width: 768px) {
   .powerlift__testimonials {
     display: flex;
@@ -5,6 +96,7 @@
     padding-top: 7rem;
     align-items: center;
     justify-content: center;
+    padding-bottom: 0px;
     /* align-items: center; */
   }
   
