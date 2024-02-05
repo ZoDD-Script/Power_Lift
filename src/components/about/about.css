@@ -21,8 +21,19 @@
   flex-direction: column;
   padding: 2.5rem;
   align-items: start;
-  background-color: rgb(69, 149, 26);
   height: 14rem;
+}
+
+.color1 {
+  background-color: #fff;
+}
+
+.color2 {
+  background-color: #42b1c4;
+}
+
+.color3 {
+  background-color: #1590a5;
 }
 
 .powerlift__hero-option h2, h3{
@@ -49,10 +60,15 @@
 .powerlift__hero-option__content-image,
 .powerlift__hero-option__content-paragraph {
   padding-bottom: 1.5rem;
+  color: black;
 }
 
 .powerlift__hero-option__content-image {
   padding-right: 1.5rem;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-right: .5rem;
 }
 
 .powerlift__hero-option__content-paragraph {
@@ -97,7 +113,10 @@
 }
 
 .powerlift__about-content__intro {
-  text-decoration: underline;
+  text-decoration: underline solid #03415A;
+  text-underline-offset: 13px;
+  font-weight: 100;
+  font-size: large;
   padding-bottom: 2.5rem;
 }
 
@@ -156,7 +175,15 @@
   }
 
   .powerlift__hero-option__content-image {
-    padding-right: 1rem;
+    padding-right: 1;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-right: .5rem;
+  }
+  
+  .powerlift__hero-option__content-paragraph {
+    padding: 0%;
   }
 
   .powerlift__hero-option__header,
@@ -174,10 +201,6 @@
     padding-left: 5px;
     padding-right: 5px;
   }
-
-  /* .powerlift__about-images__container {
-    display: flex;
-  } */
 
   .powerlift__about-images1,
   .powerlift__about-images2,

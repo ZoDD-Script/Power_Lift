@@ -3,8 +3,8 @@ import { infos, options } from '../../constant'
 import './about.css'
 import { about1, about2, about3 } from '../../assets'
 
-const OptionCard = ({ icon, title, followText, content }) => (
-  <div className='powerlift__hero-option'>
+const OptionCard = ({ icon, title, followText, content, clss }) => (
+  <div className={`powerlift__hero-option ${clss}`}>
     <h2 className='powerlift__hero-option__header'>{title}</h2>
     <h3 className='powerlift__hero-option__small-header'>{followText}</h3>
     <div className='powerlift__hero-option__content'>

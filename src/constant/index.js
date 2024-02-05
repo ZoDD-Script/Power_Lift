@@ -37,6 +37,7 @@ export const options = [
     buttonText: "",
     content:
       "Ready to kick start your new healthy lifestyle? Contact us for a 20% off your introductory training session.",
+    clss: 'color1'
   },
   {
     id: "option-2",
@@ -46,6 +47,7 @@ export const options = [
     buttonText: "",
     content:
       "Ready to kick start your new healthy lifestyle? Contact us for a 20% off your introductory training session.",
+      clss: 'color2'
   },
   {
     id: "option-3",
@@ -55,6 +57,7 @@ export const options = [
     buttonText: "",
     content:
       "Our members wanted more flexible opening hours, so we offer them 24/7 access since the last year.",
+      clss: 'color3'
   },
 ];
 

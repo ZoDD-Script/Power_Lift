@@ -11,8 +11,9 @@
   text-underline-offset: 19px;
   font-weight: 500;
   font-size: x-large;
+  padding-bottom: 3rem;
   color: #fff;
-}
+} 
 
 .powerlift__classes-paragraph {
   color: rgb(213, 213, 213);
