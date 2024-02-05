@@ -37,7 +37,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className='powerlift__testimonials'>
+    <div className='powerlift__testimonials' id='testimonies'>
       <div className='powerlift__testimonials-container'>
         <img src={testimonials[currentImage].img} alt="" className='powerlift__testimonials-container__userimg' />
         <img src={quote} alt="" className='powerlift__testimonials-container__quoteimg' />

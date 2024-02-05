@@ -22,7 +22,7 @@ const InfoCard =({ title, content }) => (
 )
 
 const About = () => (
-  <div className='powerlift__about'>
+  <div className='powerlift__about' id='about-us'>
     <div className='powerlift__about-section1'>
       {options.map((option) => (
         <OptionCard key={option.id} {...option} />
