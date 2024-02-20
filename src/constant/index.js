@@ -32,31 +32,31 @@ export const options = [
   {
     id: "option-1",
     icon: star,
-    title: "Upcoming Classes",
-    followText: "Around-the-clock access",
+    title: "Pre-purchase services",
+    followText: "Expert advice",
     buttonText: "",
     content:
-      "Ready to kick start your new healthy lifestyle? Contact us for a 20% off your introductory training session.",
+      "Consult experts to choose the ideal equipment for your goals, and budget.",
     clss: 'color1'
   },
   {
     id: "option-2",
     icon: shield,
-    title: "Acheive Your Goals",
-    followText: "Experience healthier life",
+    title: "Transport and Placement",
+    followText: "Delivery and assembly",
     buttonText: "",
     content:
-      "Ready to kick start your new healthy lifestyle? Contact us for a 20% off your introductory training session.",
+      "Offer professional delivery and assembly services for larger equipment.",
       clss: 'color2'
   },
   {
     id: "option-3",
     icon: send,
-    title: "Train Day and Night",
-    followText: "Around-the-clock access",
+    title: "Post-purchase services",
+    followText: "Maintenance and repair services",
     buttonText: "",
     content:
-      "Our members wanted more flexible opening hours, so we offer them 24/7 access since the last year.",
+      "Offer on-site or in-store maintenance and repair services for equipment.",
       clss: 'color3'
   },
 ];

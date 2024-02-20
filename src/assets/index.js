@@ -2,9 +2,9 @@ import logo from './POWERLIFT LOGO.png'
 import banner1 from './young-woman-training-gym.jpg'
 import menu from "./menu.png";
 import close from "./close.png";
-import star from './dumbbell.png'
-import shield from './gym-equipment.png'
-import send from './locker.png'
+import star from './conversation.png'
+import shield from './fitness.png'
+import send from './tools.png'
 import about1 from './about_01.jpg'
 import about2 from './about_02.png'
 import about3 from './about_03.png'

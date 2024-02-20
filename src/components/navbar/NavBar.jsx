@@ -40,7 +40,7 @@ const NavBar = () => {
         >
           <ul className='powerlift__navbar-navlinks__mobile-links'>
             {navLinks.map((nav, index) => (
-              <li key={nav.id} className={`${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'}`}>
+              <li key={nav.id}>
                 <Link to={nav.href} smooth={true} duration={500}>
                   {nav.title}
                 </Link>
