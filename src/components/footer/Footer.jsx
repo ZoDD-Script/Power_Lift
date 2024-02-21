@@ -31,7 +31,7 @@ const Footer = () => (
 
     <div className='powerlift__footer-rights'>
       <p className='powerlift__footer-rights__paragraph'>
-        2024 Rinnovo. All Rights Reserved
+        2024 PowerLift Pro. All Rights Reserved
       </p>
       <div className='powerlift__footer-rights__socials'>
         {socialMedia.map((social, index) => (

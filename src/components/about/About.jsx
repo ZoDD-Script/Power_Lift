@@ -40,14 +40,14 @@ const About = () => (
           About
         </h3>
         <h2 className='powerlift__about-content__heading'>
-        From the moment you walk through the door you know Gymbase is a unique place
+        Your ultimate destination for premium solutions.
         </h2>
         <p className='powerlift__about-content__first-paragraph'>
-        When we created Gym Base, we knew we wanted to be more than just a simple gym. Having worked in traditional gyms in the past, we knew we needed to create a concept that would provide our members with the most effective tools for success. This meant we needed to offer a wide range of classes both for children and adults.
+        As a leading subsidiary of the respected Precise Lighting, we specialize in providing a wide range of high-quality gym equipment tailored to meet the diverse needs worldwide. Our dedication extends beyond mere products; we are committed to enhancing your workout experiences with advanced design, durability, and unparalleled customer support.
         </p>
         <br />
         <p className='powerlift__about-content__second-paragraph'>
-        This also meant we needed to provide a learning environment run by experienced and successful coaches. However, our most important goal was to create a welcoming atmosphere and community in which everyone feels a sense of belonging.
+        Drawing from the vast experience of Precise Lighting, Powerlift Pro combines superior craftsmanship with reliability. Our range includes everything from robust free weights and benches to state-of-the-art cardio and resistance machines, each designed to withstand the rigors of intense training.
         </p>
 
         <div className='powerlift_about-info'>

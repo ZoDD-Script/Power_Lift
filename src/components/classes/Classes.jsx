@@ -38,7 +38,7 @@ const Classes = () => {
 
   return (
     <div className='powerlift__classes'>
-      <h1 className='powerlift__classes-header'>Our Classes</h1>
+      <h1 className='powerlift__classes-header'>Our Equipment</h1>
       <p className='powerlift__classes-paragraph'>
         Whether you want to lose weight, tone up, gain muscle, or improve strength, we provide a wide range of classes to help you achieve your goals in a friendly and airy environment.
       </p>
