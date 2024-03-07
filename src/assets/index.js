@@ -9,10 +9,10 @@ import about1 from './about_01.jpg'
 import about2 from './about_02.png'
 import about3 from './about_03.png'
 import offer from './offer.jpg'
-import icon1 from './facebook.svg'
-import icon2 from './instagram.svg'
-import icon3 from './linkedin.svg'
-import icon4 from './google.svg'
+import icon1 from './icon1.png'
+import icon2 from './icon2.png'
+import icon3 from './icon3.png'
+import icon4 from './icon4.png'
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";

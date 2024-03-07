@@ -7,9 +7,9 @@ const OfferCard = ({ icon, title, content }) => (
   <div className='powerlift__offer-container__section1'>
     <div className='powerlift__offer-container__section1__horizontal-line'></div>
     <div className='powerlift__offer-container__section1__content'>
-      <img src={icon} alt="" className='' />
-      <h3 className=''>{title}</h3>
-      <p className=''>{content}</p>
+      <img src={icon} alt="" className='powerlift__offer-container__section1__content-icon' />
+      <h2 className='powerlift__offer-container__section1__content-header'>{title}</h2>
+      <p className='powerlift__offer-container__section1__content-paragraph'>{content}</p>
     </div>
   </div>
 )

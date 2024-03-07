@@ -86,29 +86,29 @@ export const offers = [
   {
     id: "offer-1",
     content:
-      "Our popular month to month plan is offered as pay as you work-out with no longterm contract",
-    title: "No long-term contract",
+      "We stand by our products with a robust 12-month warranty, ensuring peace of mind and reliability",
+    title: "Comprehensive Warranty",
     icon: icon1,
   },
   {
     id: "offer-2",
     content:
-      "Take advantage from gym’s benefits 24 hours a day, 7 days a week in each plans available",
-    title: "Excercise round the clock",
+      "Our attractive offers are desinedto fit your specific need, ensuring that our partnership is both rewarding and fruitful.",
+    title: "Tailored Deals and Offers",
     icon: icon2,
   },
   {
     id: "offer-3",
     content:
-      "Practice on the best equipment global brands that addresses a wide range of people",
-    title: "Best equipment",
+      " We are excited to embark on this journey with you, aiming to not just meet but exceed your expectations, and to grow together in success",
+    title: "Looking Forward",
     icon: icon3,
   },
   {
     id: "offer-4",
     content:
-      "App users can book space at your gym’s classes, with personal trainers",
-    title: "Dedicated gym app",
+      "Our expertise ensures that your investment in our gym equipment is not just cost-effective but also adds significant value to your lives",
+    title: "High Value Investment",
     icon: icon4,
   },
 ];

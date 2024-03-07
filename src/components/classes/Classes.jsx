@@ -40,7 +40,7 @@ const Classes = () => {
     <div className='powerlift__classes'>
       <h1 className='powerlift__classes-header'>Our Equipment</h1>
       <p className='powerlift__classes-paragraph'>
-        Whether you want to lose weight, tone up, gain muscle, or improve strength, we provide a wide range of classes to help you achieve your goals in a friendly and airy environment.
+      Drawing from the vast experience of Precise Lighting, Powerlift Pro combines superior craftsmanship with reliability. Our range includes everything from robust free weights and benches to state-of-the-art cardio and resistance machines, each designed to withstand the rigors of intense training.
       </p>
 
       <div className='powerlift__classes-images slider-container'>
