@@ -7,19 +7,19 @@ const Classes = () => {
     {
       id: "class-1",
       img: active,
-      title: "Active Adults",
-      text: "STRENGTH, SPEED, STAMINA"
+      title: "Strength",
+      text: "STRENGTH, POWER"
     },
     {
       id: "class-2",
       img: activekids,
-      title: "Acive Kids",
-      text: "FUN AND EDUATION"
+      title: "Cardio",
+      text: "SPEED, STAMINA"
     },
     {
       id: "class-3",
       img: body,
-      title: "Body Attack",
+      title: "Others",
       text: "THE POWER PUSHER"
     },
   ];

@@ -6,12 +6,12 @@ import { footerLinks, socialMedia } from '../../constant'
 const Footer = () => (
   <section className='powerlift__footer'>
     <div className='powerlift__footer-links__container'>
-      <div className='powerlift__footer-links_section1'>
+      {/* <div className='powerlift__footer-links_section1'>
         <img src={whitelogo} alt="hoobank" className='powerlift__footer-links__image' />
         <p className='powerlift__footer-links__paragraph'>We don’t just offer renewable energy solutions; <br />We provide a commitment to quality, sustainability, and partnership.</p>
-      </div>
+      </div> */}
 
-      <div className='powerlift__footer-links__section2'>
+      {/* <div className='powerlift__footer-links__section2'>
         {footerLinks.map((footerLink) => (
           <div key={footerLink.title} className='powerlift__footer-links__tab'>
             <h4 className='powerlift__footer-links__title'>
@@ -26,7 +26,7 @@ const Footer = () => (
             </ul>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
 
     <div className='powerlift__footer-rights'>

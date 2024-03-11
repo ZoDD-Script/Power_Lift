@@ -7,19 +7,19 @@ const Testimonial = () => {
     {
       id: "testimonials-1",
       img: user1,
-      comment: "GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts. Check what else we offer for our members. GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts.",
+      comment: "I recently outfitted my home gym with equipment from Powerlift Pro, and I couldn't be happier with the quality. The barbells and plates are durable and well-made, making my workouts effective and enjoyable.",
       name: "AMITEE LOISELLE"
     },
     {
       id: "testimonials-2",
       img: user2,
-      comment: "GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts. Check what else we offer for our members. GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts.",
+      comment: "As a personal trainer, I rely on top-notch equipment to deliver results to my clients. Powerlift Pro never disappoints! Their wide selection of racks, benches, and accessories meets the needs of all my clients, from beginners to elite athletes.",
       name: "MARK ANTHONY"
     },
     {
       id: "testimonials-3",
       img: user3,
-      comment: "GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts. Check what else we offer for our members. GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts.",
+      comment: "I recently opened a new fitness studio, and Powerlift Pro was my go-to for outfitting the space. Their commercial-grade equipment is built to last, and my clients love the professional feel of the gym. Thanks, Powerlift Pro, for helping me bring my vision to life!",
       name: "LIAM HARPAUL"
     },
   ];
